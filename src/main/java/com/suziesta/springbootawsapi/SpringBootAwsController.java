@@ -10,6 +10,7 @@ public class SpringBootAwsController {
 
     @GetMapping
     public String home(){
+        System.out.println("inside home");
         return "Welcome to AWS First Deployment";
     }
 }
